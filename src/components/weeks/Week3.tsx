@@ -3,7 +3,10 @@ import React from "react";
 function Week3() {
 
   return (
-    <h5>Week-3</h5>
+    <div className="d-flex justify-content-center">
+      <h5 className="m-4">Week 3</h5>
+
+    </div>
   );
 }
 
