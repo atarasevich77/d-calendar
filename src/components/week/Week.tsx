@@ -7,17 +7,17 @@ interface WeekProps {
 }
 
 function Week({ path }: WeekProps) {
-  const week = weeks.find(el => el.name === path);
+  const week: any = weeks.find(el => el.name === path);
 
   return (
     <Container>
       <Row className="justify-content-md-center">
         <Col md="auto" className="text-center">
-          <h5 className="mb-5">Week 1</h5>
+          <h5 className="mb-5">{(week.name.charAt(0).toUpperCase() + week.name.slice(1)).replace('-', ' ')}</h5>
         </Col>
       </Row>
       <Row>
-        {week?.days.map((data) => (
+        {week?.days.map((data: any) => (
           <Col xs={12} sm={6} md={6} lg={4} xl={3} key={ data.day }>
             <Card className="m-3">
               <Card.Header className="text-center">{ data.day }</Card.Header>
