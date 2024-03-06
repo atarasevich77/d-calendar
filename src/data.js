@@ -1,7 +1,7 @@
 export const weeks = [
   {
     name: 'week-1',
-    description: 'Menu for first week',
+    description: 'Menu for First Week',
     days: [
       {
         day: 'Monday',
@@ -182,7 +182,7 @@ export const weeks = [
   },
   {
     name: 'week-2',
-    description: 'Menu for second week',
+    description: 'Menu for Second Week',
     days: [
       {
         day: 'Monday',
@@ -363,7 +363,7 @@ export const weeks = [
   },
   {
     name: 'week-3',
-    description: 'Menu for third week',
+    description: 'Menu for Third Week',
     days: [
       {
         day: 'Monday',
@@ -544,7 +544,7 @@ export const weeks = [
   },
   {
     name: 'week-4',
-    description: 'Menu for fourth week',
+    description: 'Menu for Fourth Week',
     days: [
       {
         day: 'Monday',
@@ -725,7 +725,7 @@ export const weeks = [
   },
   {
     name: 'week-5',
-    description: 'Menu for fiveth week',
+    description: 'Menu for Fiveth Week',
     days: [
       {
         day: 'Monday',
