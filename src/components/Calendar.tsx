@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Calendar() {
   return (
@@ -13,7 +14,7 @@ function Calendar() {
                   <div className="card-body">
                     <h5 className="card-title">Week #1</h5>
                     <div className="card-text m-2">
-                      <a href="/week-1" className="link-underline-light">Menu for first week.</a>
+                      <Link to="/week-1" className="link-underline-light">Menu for first week.</Link>
                     </div>
                   </div>
                 </div>
@@ -23,7 +24,7 @@ function Calendar() {
                   <div className="card-body">
                     <h5 className="card-title">Week #2</h5>
                     <div className="card-text m-2">
-                      <a href="/week-2" className="link-underline-light">Menu for second week.</a>
+                      <Link to="/week-2" className="link-underline-light">Menu for second week.</Link>
                     </div>
                   </div>
                 </div>
@@ -33,7 +34,7 @@ function Calendar() {
                   <div className="card-body">
                     <h5 className="card-title">Week #3</h5>
                     <div className="card-text m-2">
-                      <a href="/week-3" className="link-underline-light">Menu for third week.</a>
+                      <Link to="/week-3" className="link-underline-light">Menu for third week.</Link>
                     </div>
                   </div>
                 </div>
