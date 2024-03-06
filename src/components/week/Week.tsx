@@ -13,18 +13,19 @@ function Week({ path }: WeekProps) {
     <Container>
       <Row className="justify-content-md-center">
         <Col md="auto" className="text-center">
-          <h5 className="mb-5">{(week.name.charAt(0).toUpperCase() + week.name.slice(1)).replace('-', ' ')}</h5>
+          <h5 className="mb-5 fw-bold">{(week.name.charAt(0).toUpperCase() + week.name.slice(1)).replace('-', ' ')}</h5>
         </Col>
       </Row>
       <Row>
         {week?.days.map((data: any) => (
           <Col xs={12} sm={6} md={6} lg={4} xl={3} key={ data.day }>
             <Card className="m-3">
-              <Card.Header className="text-center">{ data.day }</Card.Header>
+              <Card.Header className="text-center fw-bold">{ data.day }</Card.Header>
               <Card.Body>
                 {data?.menu.map((el: any)  => (
                   <div key={ el.time }>{ el.time } - { el.description }</div>
                 ))}
+                <Col className="mt-3 small fst-italic">*Add 100-150g of Vegetables to each meal</Col>
               </Card.Body>
             </Card>
           </Col>
