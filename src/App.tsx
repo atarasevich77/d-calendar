@@ -12,9 +12,9 @@ function App() {
       <Container>
         <Breadcrumbs />
         <Routes>
-          <Route path="/" element={ <Calendar /> } />
+          <Route path="/d-calendar" element={ <Calendar /> } />
           {weeks.map((week: any) => (
-            <Route key={week.name} path={`/${week.name}`} element={ <Week path={week.name} /> } />
+            <Route key={week.name} path={`/d-calendar/${week.name}`} element={ <Week path={week.name} /> } />
           ))}
         </Routes>
       </Container>

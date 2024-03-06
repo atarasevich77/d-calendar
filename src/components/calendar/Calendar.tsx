@@ -17,7 +17,7 @@ function Calendar() {
                     <Card.Body>
                       <Card.Title>{ week.name.charAt(0).toUpperCase() + week.name.slice(1) }</Card.Title>
                       <Card.Text className="m-2">
-                        <Link to={`/${week.name}`} className="link-underline-light">
+                        <Link to={`/d-calendar/${week.name}`} className="link-underline-light">
                           { week.description }
                         </Link>
                       </Card.Text>
