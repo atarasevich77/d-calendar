@@ -1,23 +1,23 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Calendar from "./components/Calendar";
-import Week1 from "./components/weeks/Week1";
-import Week2 from "./components/weeks/Week2";
-import Week3 from "./components/weeks/Week3";
-import Breadcrumbs from "./components/Breadcrumbs";
+import { Container } from "react-bootstrap";
+import Breadcrumbs from "./components/breadcrumbs/Breadcrumbs";
+import Calendar from "./components/calendar/Calendar";
+import { weeks } from "./data";
+import Week from "./components/week/Week";
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <Breadcrumbs/>
+      <Container>
+        <Breadcrumbs />
         <Routes>
-          <Route path="/" element={<Calendar/>}/>
-          <Route path="/week-1" element={<Week1/>}/>
-          <Route path="/week-2" element={<Week2/>}/>
-          <Route path="/week-3" element={<Week3/>}/>
+          <Route path="/" element={ <Calendar /> } />
+          {weeks.map((week: any) => (
+            <Route key={week.name} path={`/${week.name}`} element={ <Week path={week.name} /> } />
+          ))}
         </Routes>
-      </div>
+      </Container>
     </BrowserRouter>
 );
 }
