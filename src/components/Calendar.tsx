@@ -11,9 +11,9 @@ function Calendar() {
               <div className="col-sm-4 mb-3">
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">Week-1</h5>
+                    <h5 className="card-title">Week #1</h5>
                     <div className="card-text m-2">
-                      <a href="/week-1" className="link-underline-light">Menu for first diet week.</a>
+                      <a href="/week-1" className="link-underline-light">Menu for first week.</a>
                     </div>
                   </div>
                 </div>
@@ -21,9 +21,9 @@ function Calendar() {
               <div className="col-sm-4 mb-3">
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">Week-2</h5>
+                    <h5 className="card-title">Week #2</h5>
                     <div className="card-text m-2">
-                      <a href="/week-2" className="link-underline-light">Menu for second diet week.</a>
+                      <a href="/week-2" className="link-underline-light">Menu for second week.</a>
                     </div>
                   </div>
                 </div>
@@ -31,9 +31,9 @@ function Calendar() {
               <div className="col-sm-4 mb-3">
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">Week-3</h5>
+                    <h5 className="card-title">Week #3</h5>
                     <div className="card-text m-2">
-                      <a href="/week-3" className="link-underline-light">Menu for third diet week.</a>
+                      <a href="/week-3" className="link-underline-light">Menu for third week.</a>
                     </div>
                   </div>
                 </div>
