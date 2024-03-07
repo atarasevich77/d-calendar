@@ -2,7 +2,7 @@ export const weeks = [
   {
     name: 'Week 1',
     link: 'week-1',
-    description: 'Menu for the First Week include meals equal to around 1200 kcal per day. It\'s needed for start a metabolic process. Also you should drink a lot of pure water every day by the formula 30ml of water for each kg of weight.',
+    description: 'Menu for the First Week include meals equal to around 1200 kcal per day. It\'s needed for start a metabolic process. Also you should drink a lot of pure water every day by the formula 30ml of water for each kg of your weight.',
     days: [
       {
         day: 'Monday',
@@ -21,7 +21,7 @@ export const weeks = [
           },
           {
             time: '04.00 pm',
-            description: 'Buckwheat 100g, Roasted Chicken Breast 100g (no oil)'
+            description: 'Buckwheat 100g, Roasted Chicken Fillet 100g (no oil)'
           },
           {
             time: '07.00 pm',
@@ -38,7 +38,7 @@ export const weeks = [
           },
           {
             time: '10.00 am',
-            description: 'Bulgur 70g, Stewed/Boiled Chicken Breast 70g'
+            description: 'Bulgur 70g, Stewed/Boiled Chicken Fillet 70g'
           },
           {
             time: '01.00 pm',
@@ -46,7 +46,7 @@ export const weeks = [
           },
           {
             time: '04.00 pm',
-            description: 'Bulgur 70g, Stewed/Boiled Chicken Breast 70g'
+            description: 'Bulgur 70g, Stewed/Boiled Chicken Fillet 70g'
           },
           {
             time: '07.00 pm',
@@ -113,7 +113,7 @@ export const weeks = [
           },
           {
             time: '10.00 am',
-            description: 'Buckwheat 100g, Roasted Chicken Breast 80g (no oil)'
+            description: 'Buckwheat 100g, Roasted Chicken Fillet 80g (no oil)'
           },
           {
             time: '01.00 pm',
@@ -167,11 +167,11 @@ export const weeks = [
           },
           {
             time: '01.00 pm',
-            description: 'Pasta 80g, Stewed/Boiled Chicken Breast 80g'
+            description: 'Pasta 80g, Stewed/Boiled Chicken Fillet 80g'
           },
           {
             time: '04.00 pm',
-            description: 'Buckwheat 90g, Stewed/Boiled Chicken Breast 80g'
+            description: 'Buckwheat 90g, Stewed/Boiled Chicken Fillet 80g'
           },
           {
             time: '07.00 pm',
@@ -184,7 +184,7 @@ export const weeks = [
   {
     name: 'Week 2',
     link: 'week-2',
-    description: 'Menu for the Second Week include meals equals to around 1400 kcal per day. Dont forget to drink water every day by the formula 30ml of water for each kg of weight.',
+    description: 'Menu for the Second Week include meals equals to around 1400 kcal per day. Dont forget to drink water every day by the formula 30ml of water for each kg of your weight.',
     days: [
       {
         day: 'Monday',
@@ -232,7 +232,7 @@ export const weeks = [
           },
           {
             time: '07.00 pm',
-            description: 'Baked Chicken Breast 100g, Green Beans 100g'
+            description: 'Baked Chicken Fillet 100g, Green Beans 100g'
           },
         ]
       },
@@ -249,7 +249,7 @@ export const weeks = [
           },
           {
             time: '01.00 pm',
-            description: 'Buckwheat 100g, Baked Chicken Breast 70g'
+            description: 'Buckwheat 100g, Baked Chicken Fillet 70g'
           },
           {
             time: '04.00 pm',
@@ -257,7 +257,7 @@ export const weeks = [
           },
           {
             time: '07.00 pm',
-            description: 'Baked Chicken Breast 100g'
+            description: 'Baked Chicken Fillet 100g'
           },
         ]
       },
@@ -324,7 +324,7 @@ export const weeks = [
           },
           {
             time: '01.00 pm',
-            description: 'Buckwheat 100g, Roasted Chicken Breast 80g (no oil)'
+            description: 'Buckwheat 100g, Roasted Chicken Fillet 80g (no oil)'
           },
           {
             time: '04.00 pm',
@@ -332,7 +332,7 @@ export const weeks = [
           },
           {
             time: '07.00 pm',
-            description: 'Roasted Chicken Breast 100g (no oil)'
+            description: 'Roasted Chicken Fillet 100g (no oil)'
           },
         ]
       },
@@ -365,31 +365,31 @@ export const weeks = [
   },
   {
     name: 'Week 3',
-    link: '/week-3',
-    description: 'Menu for the Third Week include meals equals to around 1400 kcal per day. Drink pure water every day by the formula 30ml of water for each kg of weight.',
+    link: 'week-3',
+    description: 'Menu for the Third Week include meals equals to around 1400 kcal per day. Drink pure water every day by the formula 30ml of water for each kg of your weight.',
     days: [
       {
         day: 'Monday',
         menu: [
           {
             time: '07.00 am',
-            description: '1.1'
+            description: 'Oatmeal 40g (dry weight), Pumpkin seeds 10g, Apple 100g'
           },
           {
             time: '10.00 am',
-            description: '1.2'
+            description: 'Yogurt (less than 4% of fat) 200g, Chia seed 20g, Berries 100g'
           },
           {
             time: '01.00 pm',
-            description: '1.3'
+            description: 'Bulgur 100g, Stewed/Boiled Beef (no fat) 100g'
           },
           {
             time: '04.00 pm',
-            description: '1.4'
+            description: 'Bulgur 100g, Cheese Feta 30g, Oil 25g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '1.5'
+            description: 'Farmer Cheese (less or equal 5% fat) 100g'
           },
         ]
       },
@@ -398,23 +398,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '2.1'
+            description: 'Oatmeal 40g (dry weight), Sesame 10g, Avokado 70g'
           },
           {
             time: '10.00 am',
-            description: '2.2'
+            description: 'Orange 200g, Walnut 20g'
           },
           {
             time: '01.00 pm',
-            description: '2.3'
+            description: 'Pasta 120g, Roasted Egg 1pc'
           },
           {
             time: '04.00 pm',
-            description: '2.4'
+            description: 'Pasta 100g, Cheese (less than 45% fat) 20g, Oil 25g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '2.5'
+            description: 'Baked Chicken Fillet 100g, Green Bean 100g'
           },
         ]
       },
@@ -423,23 +423,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '3.1'
+            description: 'Oatmeal 40g (dry weight), Poached Egg 1pc'
           },
           {
             time: '10.00 am',
-            description: '3.2'
+            description: 'Smoothie: Kefir 200g, Orange 100g, Walnut 20g'
           },
           {
             time: '01.00 pm',
-            description: '3.3'
+            description: 'Quinoa 120g, Stewed/Baked Turkey 80g'
           },
           {
             time: '04.00 pm',
-            description: '3.4'
+            description: 'Quinoa 120g, Cheese (less than 45% fat) 20g, Oil 20g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '3.5'
+            description: 'Stewed/Baked Turkey 100g'
           },
         ]
       },
@@ -448,23 +448,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '4.1'
+            description: 'Oatmeal 40g (dry weight), Sesame 5g, Avokado 80g'
           },
           {
             time: '10.00 am',
-            description: '4.2'
+            description: 'Orange 200g, Cashew 30g'
           },
           {
             time: '01.00 pm',
-            description: '4.3'
+            description: 'Buckwheat 120g, Steamed Fish (no fat) 80g'
           },
           {
             time: '04.00 pm',
-            description: '4.4'
+            description: 'Buckwheat 100g, Roasted Egg 1pc, Oil 20g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '4.5'
+            description: 'Steamed Fish (no fat) 120g, Green Bean 100g'
           },
         ]
       },
@@ -473,23 +473,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '5.1'
+            description: 'Oatmeal 40g (dry weight), Pumpkin seeds 10g, Poached Egg 1pc'
           },
           {
             time: '10.00 am',
-            description: '5.2'
+            description: 'Yogurt (less than 4% of fat) 200g, Chia seed 20g, Kiwi 150g'
           },
           {
             time: '01.00 pm',
-            description: '5.3'
+            description: 'Quinoa 120g, Stewed/Baked Turkey 80g'
           },
           {
             time: '04.00 pm',
-            description: '5.4'
+            description: 'Quinoa 100g, Stewed/Baked Turkey 80g, Oil 20g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '5.5'
+            description: 'Farmer Cheese (less or equal 5% fat) 100g, Peanut 20g'
           },
         ]
       },
@@ -498,23 +498,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '6.1'
+            description: 'Oatmeal 40g (dry weight), Avocado 80g'
           },
           {
             time: '10.00 am',
-            description: '6.2'
+            description: 'Orange 200g, Kefir 200g'
           },
           {
             time: '01.00 pm',
-            description: '6.3'
+            description: 'Pasta 100g, Roasted Chicken Fillet 80g'
           },
           {
             time: '04.00 pm',
-            description: '6.4'
+            description: 'Pasta 100g, Cheese (less than 45% fat) 30g, Oil 20g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '6.5'
+            description: 'Farmer Cheese (less or equal 5% fat) 100g, Cashew 20g'
           },
         ]
       },
@@ -523,23 +523,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '7.1'
+            description: 'Oatmeal 40g (dry weight), Walnut 20g'
           },
           {
             time: '10.00 am',
-            description: '7.2'
+            description: 'Smoothie: Kefir 200g, Berries 50g, Sesame 10g'
           },
           {
             time: '01.00 pm',
-            description: '7.3'
+            description: 'Quinoa 100g, Baked Fish (no fat) 80g'
           },
           {
             time: '04.00 pm',
-            description: '7.4'
+            description: 'Quinoa 100g, Roasted Egg 1pc, Oil 20g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '7.5'
+            description: 'Baked Fish (no fat) 100g'
           },
         ]
       },
