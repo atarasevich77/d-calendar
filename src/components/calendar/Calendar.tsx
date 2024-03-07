@@ -15,12 +15,15 @@ function Calendar() {
                 <Col sm={4} className="mb-3" key={week.name}>
                   <Card>
                     <Card.Body>
-                      <Card.Title>{ week.name.charAt(0).toUpperCase() + week.name.slice(1) }</Card.Title>
-                      <Card.Text className="m-2">
-                        <Link to={`/d-calendar/${week.name}`} className="link-underline-light">
-                          { week.description }
+                      <Card.Title>{ week.name }</Card.Title>
+                      <Col className="m-2">
+                        { week.description }
+                      </Col>
+                      <Col className="mt-2">
+                        <Link to={`/d-calendar/${week.link}`} className="link-underline-light">
+                          Go to Menu
                         </Link>
-                      </Card.Text>
+                      </Col>
                     </Card.Body>
                   </Card>
                 </Col>

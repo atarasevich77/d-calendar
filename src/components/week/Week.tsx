@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card, Row, Col } from 'react-bootstrap';
+import { Container, Card, Row, Col, ListGroup } from 'react-bootstrap';
 import { weeks } from "../../data";
 
 interface WeekProps {
@@ -7,7 +7,7 @@ interface WeekProps {
 }
 
 function Week({ path }: WeekProps) {
-  const week: any = weeks.find(el => el.name === path);
+  const week: any = weeks.find(el => el.link === path);
 
   return (
     <Container>
@@ -19,13 +19,16 @@ function Week({ path }: WeekProps) {
       <Row>
         {week?.days.map((data: any) => (
           <Col xs={12} sm={6} md={6} lg={4} xl={3} key={ data.day }>
-            <Card className="m-3">
+            <Card className="m-2">
               <Card.Header className="text-center fw-bold">{ data.day }</Card.Header>
               <Card.Body>
-                {data?.menu.map((el: any)  => (
-                  <div key={ el.time }>{ el.time } - { el.description }</div>
-                ))}
-                <Col className="mt-3 small fst-italic">*Add 100-150g of Vegetables to each meal</Col>
+                <ListGroup variant="flush">
+                  {data?.menu.map((el: any)  => (
+                    <ListGroup.Item className="mb-1" key={ el.time }>{ el.time } - { el.description }</ListGroup.Item>
+                  ))}
+                  <ListGroup.Item></ListGroup.Item>
+                </ListGroup>
+                <Col className="mt-1 small fst-italic">*Add 100-150g of Vegetables to each meal</Col>
               </Card.Body>
             </Card>
           </Col>

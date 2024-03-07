@@ -26,6 +26,7 @@ function Breadcrumbs() {
               </li>
             );
           }
+          return null;
         })}
       </ol>
     </nav>

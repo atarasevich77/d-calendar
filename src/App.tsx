@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/d-calendar" element={ <Calendar /> } />
           {weeks.map((week: any) => (
-            <Route key={week.name} path={`/d-calendar/${week.name}`} element={ <Week path={week.name} /> } />
+            <Route key={week.link} path={`/d-calendar/${week.link}`} element={ <Week path={week.link} /> } />
           ))}
         </Routes>
       </Container>
