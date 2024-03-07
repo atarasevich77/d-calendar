@@ -555,7 +555,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal Pancake (mixed 30g oatmeal + 1 egg) 1pc'
+            description: 'Oatmeal Pancake (mixed 30g oatmeal + 2 egg) 1pc'
           },
           {
             time: '10.00 am',
@@ -605,7 +605,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal Pancake (mixed 30g oatmeal + 1 egg) 1pc'
+            description: 'Oatmeal Pancake (mixed 30g oatmeal + 2 egg) 1pc'
           },
           {
             time: '10.00 am',
@@ -655,7 +655,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal Pancake (mixed 30g oatmeal + 1 egg) 1pc'
+            description: 'Oatmeal Pancake (mixed 30g oatmeal + 2 egg) 1pc'
           },
           {
             time: '10.00 am',
@@ -705,7 +705,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal Pancake (mixed 30g oatmeal + 1 egg) 1pc'
+            description: 'Oatmeal Pancake (mixed 30g oatmeal + 2 egg) 1pc'
           },
           {
             time: '10.00 am',
@@ -737,23 +737,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '1.1'
+            description: 'Oatmeal 40g (dry weight), Avocado 70g'
           },
           {
             time: '10.00 am',
-            description: '1.2'
+            description: 'Brown Rice 90g, Roasted/Grilled Ground Beef (no fat) 100g'
           },
           {
             time: '01.00 pm',
-            description: '1.3'
+            description: 'Yogurt (less than 4% of fat) 200g, Chia seed 15g, Orange 150g'
           },
           {
             time: '04.00 pm',
-            description: '1.4'
+            description: 'Brown Rice 90g, Roasted/Grilled Ground Beef (no fat) 100g'
           },
           {
             time: '07.00 pm',
-            description: '1.5'
+            description: 'Farmer Cheese Pancakes (no flour) 120g'
           },
         ]
       },
@@ -762,23 +762,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '2.1'
+            description: 'Oatmeal 30g (dry weight), Poached/Soft Boiled Egg 2pc'
           },
           {
             time: '10.00 am',
-            description: '2.2'
+            description: 'Buckwheat 100g, Baked Chicken Fillet 120g'
           },
           {
             time: '01.00 pm',
-            description: '2.3'
+            description: 'Smoothie: Kefir 200g, Berries 150g, Walnut 20g'
           },
           {
             time: '04.00 pm',
-            description: '2.4'
+            description: 'Brown Rice 100g, Oil 20g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '2.5'
+            description: 'Stewed/Roasted Chicken Hearts 120g'
           },
         ]
       },
@@ -787,23 +787,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '3.1'
+            description: 'Oatmeal Pancake (mixed 30g oatmeal + 2 egg) 1pc'
           },
           {
             time: '10.00 am',
-            description: '3.2'
+            description: 'Pasta 100g, Roasted Chicken Fillet (no oil) 80g'
           },
           {
             time: '01.00 pm',
-            description: '3.3'
+            description: 'Grapefruit 200g, Walnut 20g'
           },
           {
             time: '04.00 pm',
-            description: '3.4'
+            description: 'Pasta 100g, Roasted Chicken Fillet (no oil) 80g, Oil 30g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '3.5'
+            description: 'Farmer Cheese (less or equal 5% fat) 120g'
           },
         ]
       },
@@ -812,23 +812,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '4.1'
+            description: 'Oatmeal 40g (dry weight), Cheese (less than 45% fat) 20g'
           },
           {
             time: '10.00 am',
-            description: '4.2'
+            description: 'Quinoa 100g, Roasted Egg 2pc'
           },
           {
             time: '01.00 pm',
-            description: '4.3'
+            description: 'Yogurt (less than 4% of fat) 200g, Chia seed 15g, Kiwi 150g'
           },
           {
             time: '04.00 pm',
-            description: '4.4'
+            description: 'Quinoa 100g, Stewed/Baked Turkey 100g, Oil 30g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '4.5'
+            description: 'Stewed/Baked Turkey 100g'
           },
         ]
       },
@@ -837,23 +837,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '5.1'
+            description: 'Oatmeal Pancake (mixed 30g oatmeal + 2 egg) 1pc'
           },
           {
             time: '10.00 am',
-            description: '5.2'
+            description: 'Bulgur 120g, Cheese Feta 30g'
           },
           {
             time: '01.00 pm',
-            description: '5.3'
+            description: 'Grapefruit 200g, Walnut 30g'
           },
           {
             time: '04.00 pm',
-            description: '5.4'
+            description: 'Bulgur 120g, Stewed/Boiled Chicken Fillet 100g, Oil 20g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '5.5'
+            description: 'Farmer Cheese (less or equal 5% fat) 120g'
           },
         ]
       },
@@ -862,23 +862,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '6.1'
+            description: 'Oatmeal 40g (dry weight), Berries 100g, Cashew 30g'
           },
           {
             time: '10.00 am',
-            description: '6.2'
+            description: 'Quinoa 100g, Avocado 80g'
           },
           {
             time: '01.00 pm',
-            description: '6.3'
+            description: 'Quinoa 100g, Stewed/Baked Chicken Fillet 100g'
           },
           {
             time: '04.00 pm',
-            description: '6.4'
+            description: 'Quinoa 100g, Cheese (less than 45% fat) 30g'
           },
           {
             time: '07.00 pm',
-            description: '6.5'
+            description: 'Stewed/Baked Chicken Fillet 120g'
           },
         ]
       },
@@ -887,23 +887,23 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: '7.1'
+            description: 'Oatmeal Pancake (mixed 30g oatmeal + 2 egg) 1pc'
           },
           {
             time: '10.00 am',
-            description: '7.2'
+            description: 'Buckwheat 100g, Steamed Sea Fish (no fat) 100g'
           },
           {
             time: '01.00 pm',
-            description: '7.3'
+            description: 'Berries 200g, Almond 30g'
           },
           {
             time: '04.00 pm',
-            description: '7.4'
+            description: 'Buckwheat 100g, Oil 30g (or during the day)'
           },
           {
             time: '07.00 pm',
-            description: '7.5'
+            description: 'Steamed Sea Fish (no fat) 120g'
           },
         ]
       },
