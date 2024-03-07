@@ -5,6 +5,7 @@ import Breadcrumbs from "./components/breadcrumbs/Breadcrumbs";
 import Calendar from "./components/calendar/Calendar";
 import { weeks } from "./data";
 import Week from "./components/week/Week";
+import ScrollButton from "./components/scroll-button/ScrollButton";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
             <Route key={week.link} path={`/d-calendar/${week.link}`} element={ <Week path={week.link} /> } />
           ))}
         </Routes>
+        <div className="me-2 mb-1 float-end">
+          <ScrollButton />
+        </div>
       </Container>
     </BrowserRouter>
 );
