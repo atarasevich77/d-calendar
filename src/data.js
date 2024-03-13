@@ -9,7 +9,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Pasta 80g, Roasted Egg White 40g'
+            description: 'Pasta 80g, Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -63,7 +63,7 @@ export const weeks = [
           },
           {
             time: '10.00 am',
-            description: 'Quinoa 100g, Roasted Egg White 40g'
+            description: 'Quinoa 100g, Roasted Egg White 30g-50g'
           },
           {
             time: '01.00 pm',
@@ -121,7 +121,7 @@ export const weeks = [
           },
           {
             time: '04.00 pm',
-            description: 'Buckwheat 100g, Roasted Egg White 40g'
+            description: 'Buckwheat 100g, Roasted Egg White 30g-50g'
           },
           {
             time: '07.00 pm',
@@ -224,7 +224,7 @@ export const weeks = [
           },
           {
             time: '01.00 pm',
-            description: 'Buckwheat 120g, Roasted Egg White 40g'
+            description: 'Buckwheat 120g, Roasted Egg White 30g-50g'
           },
           {
             time: '04.00 pm',
@@ -241,7 +241,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 40g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 40g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -278,7 +278,7 @@ export const weeks = [
           },
           {
             time: '04.00 pm',
-            description: 'Bulgur 100g, Roasted Egg White 40g, Oil 25g (or during the day)'
+            description: 'Bulgur 100g, Roasted Egg White 30g-50g, Oil 25g (or during the day)'
           },
           {
             time: '07.00 pm',
@@ -353,7 +353,7 @@ export const weeks = [
           },
           {
             time: '04.00 pm',
-            description: 'Brown Rice 110g, Roasted Egg White 40g, Oil 25g (or during the day)'
+            description: 'Brown Rice 110g, Roasted Egg White 30g-50g, Oil 25g (or during the day)'
           },
           {
             time: '07.00 pm',
@@ -406,7 +406,7 @@ export const weeks = [
           },
           {
             time: '01.00 pm',
-            description: 'Pasta 120g, Roasted Egg White 40g'
+            description: 'Pasta 120g, Roasted Egg White 30g-50g'
           },
           {
             time: '04.00 pm',
@@ -460,7 +460,7 @@ export const weeks = [
           },
           {
             time: '04.00 pm',
-            description: 'Buckwheat 100g, Roasted Egg White 40g, Oil 20g (or during the day)'
+            description: 'Buckwheat 100g, Roasted Egg White 30g-50g, Oil 20g (or during the day)'
           },
           {
             time: '07.00 pm',
@@ -535,7 +535,7 @@ export const weeks = [
           },
           {
             time: '04.00 pm',
-            description: 'Quinoa 100g, Roasted Egg White 40g, Oil 20g (or during the day)'
+            description: 'Quinoa 100g, Roasted Egg White 30g-50g, Oil 20g (or during the day)'
           },
           {
             time: '07.00 pm',
@@ -717,7 +717,7 @@ export const weeks = [
           },
           {
             time: '04.00 pm',
-            description: 'Buckwheat 100g, Roasted Egg White 40g'
+            description: 'Buckwheat 100g, Roasted Egg White 30g-50g'
           },
           {
             time: '07.00 pm',
@@ -919,7 +919,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Pasta 80g, Roasted Egg White 40g'
+            description: 'Pasta 80g, Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -973,7 +973,7 @@ export const weeks = [
           },
           {
             time: '10.00 am',
-            description: 'Quinoa 100g, Roasted Egg White 40g'
+            description: 'Quinoa 100g, Roasted Egg White 30g-50g'
           },
           {
             time: '01.00 pm',
@@ -1031,7 +1031,7 @@ export const weeks = [
           },
           {
             time: '04.00 pm',
-            description: 'Buckwheat 100g, Roasted Egg White 40g'
+            description: 'Buckwheat 100g, Roasted Egg White 30g-50g'
           },
           {
             time: '07.00 pm',
@@ -1101,7 +1101,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1126,7 +1126,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1151,7 +1151,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1176,7 +1176,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1201,7 +1201,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1226,7 +1226,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1251,7 +1251,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1283,7 +1283,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1308,7 +1308,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1333,7 +1333,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1358,7 +1358,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1383,7 +1383,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1408,7 +1408,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
@@ -1433,7 +1433,7 @@ export const weeks = [
         menu: [
           {
             time: '07.00 am',
-            description: 'Oatmeal 30g (dry weight), Roasted Egg White 40g'
+            description: 'Oatmeal 30g (dry weight), Roasted Egg White 30g-50g'
           },
           {
             time: '10.00 am',
